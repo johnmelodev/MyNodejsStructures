@@ -1,9 +1,18 @@
-function somar(numUm, NumDois) { return numUm + NumDois; }
+const calculator = require("./calculator")
 
-function dividir(numUm, NumDois) { return numUm / NumDois; }
+// test(o que o teste deve validar)
+test('somar valores', () => {
+    expect(calculator.somar(1, 1)).toBe(2)
+});
 
-function multiplicar(numUm, NumDois) { return numUm * NumDois; }
+test('dividir valores', () => {
+    expect(calculator.dividir(4, 2)).toBe(2)
+});
 
-function subtrair(numUm, NumDois) { return numUm - NumDois; }
+test('multiplicar valores', () => {
+    expect(calculator.multiplicar(2, 2)).toBe(3)
+});
 
-module.exports = { somar, dividir, multiplicar, subtrair }
+test('subtrair valores', () => {
+    expect(calculator.subtrair(4, 2)).toBe(2)
+});

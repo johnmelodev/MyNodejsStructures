@@ -1,0 +1,3 @@
+New environment -> http request -> raw json
+
+seleciona os metodos e pode controlar a api

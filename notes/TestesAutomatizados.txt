@@ -26,3 +26,10 @@ teste serve tambem como documentacao, relatando o que foi feito no futuro e no p
 
 Para criar os testes usamos nomedoarquivo.test.js
 calculator.test.js
+
+o comando para rodar é
+tem que configurar no package.json
+npm run test
+
+TESTE COVERAGE
+- Para garantir que todos os metodos estao sendo testados

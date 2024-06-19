@@ -1,0 +1,20 @@
+Hypertext Transfer Protocol
+Protocolo de comunicacao que suporta (texto, imagens e outros tipos de midia de forma simples)
+
+backend, com servidor na nuvem ou outro pais
+e a forma de acessarmos esse backend via api é por uma url
+
+quando acessa a url o cliente (meu computador) faz uma requisicao ao servido onde esta url
+nesse momento cria uma conexao e se mantem aberta até o servidor me responder
+ISSO TEM QUE SER RAPIDO
+Se demorar a resposta do servidor e tiver muitas requisicoes o sistema pode nao suportar e cair
+
+NO HEADERS VE OS METODOS USADOS DE REQUISICAO
+
+STATUS CODES
+200 = ok
+204 = no content
+400 = bad request //o cliente enviou uma informacao errada
+401 = Unauthorized
+404 = NotFound
+500 = Internal server error

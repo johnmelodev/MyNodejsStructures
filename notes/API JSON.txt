@@ -1,0 +1,38 @@
+{
+    "name": "Joao",
+    "framework": "React",
+    "experience": "high",
+    "year": 2024,
+    "available": true
+}
+
+HTTP METHODS ENDPOINTS
+GET
+/p86V63UH/data
+
+GET by id
+/p86V63UH/data/1
+
+GET filter
+/p86V63UH/data?id=value
+
+GET paginate
+/p86V63UH/data?_page=2&_limit=10
+
+GET sort
+/p86V63UH/data?_sort=id&_order=desc
+
+GET slice
+/p86V63UH/data?_start=10&_end=20
+
+POST
+/p86V63UH/data
+
+PUT
+/p86V63UH/data/1
+
+PATCH
+/p86V63UH/data/1
+
+DELETE
+/p86V63UH/data/1
