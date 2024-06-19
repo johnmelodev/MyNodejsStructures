@@ -1,0 +1,11 @@
+Criar funcao
+function somar
+Function + sua funcao
+
+Return, serve para chamar o valor que deve retornar
+
+
+IMPORTAR
+
+no arquivo que vai importar var calculator = require("./calculator.js");
+no arquivo que vai exportar module.exports = { somar, dividir, multiplicar, subtrair }

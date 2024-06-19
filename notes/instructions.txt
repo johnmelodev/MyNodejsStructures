@@ -1,0 +1,6 @@
+to run the node = node index.js
+
+install library = npm install validator
+
+criar testes
+npm install --save-dev jest

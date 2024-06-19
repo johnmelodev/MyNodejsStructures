@@ -1,3 +1,0 @@
-to run the node = node index.js
-
-install library = npm install validator
