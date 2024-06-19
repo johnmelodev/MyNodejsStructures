@@ -1,0 +1,4 @@
+Funcoes que podem ser feitas sem depender da sincronia de outras
+De forma paralela voce ja vai iniciando outras funcoes
+
+PROMISE = usado para dar alta performace
