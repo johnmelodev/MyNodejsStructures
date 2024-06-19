@@ -1,0 +1,25 @@
+identificar erros e bugs no ambiente de producao ainda
+
+quando alterar uma parte para nao quebrar as outras rodar teste em tempo real
+
+TIPOS DE TESTES: 
+
+- TESTE DE UNIDADE
+* Onde deveriam ter mais teste, base da piramide.
+* Testa a unidade do app, se ela quebrar voce já sabe exatamente onde esta o problema.
+* Como esse texte é aplicado em uma parte especifica os erros sao encontrados mais facilmente evitando gastos com depuracao
+* menos bugs chegando em producao
+
+- TESTE DE INTEGRACAO
+* Testes de partes maiores, por exemplo ao conectar uma API com outros sistemas garantir se os outros sistemas estao funcionando se o banco de dados esta funcionando
+* Geralmente mais focado no backend
+* Verificar third party systems and API for problems
+
+- TESTE E2E (FIM-A-FIM)
+*  Mais caro, engloba o todo
+*  Simular o usuario mexendo (Automatizar um clique no botao, um preenchimento de formulario)
+*  Vai pegar todo o ciclo, do backend ao frontend 
+*  Mais abstrato não tao focado
+*  Feito por automacao de robos
+
+teste serve tambem como documentacao, relatando o que foi feito no futuro e no passado

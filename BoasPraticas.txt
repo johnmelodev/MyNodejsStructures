@@ -1,0 +1,4 @@
+Isolar o codigo em unidades que facam mais sentido.
+
+Resposabilidade unica para cada funcao e nao uma funcao com diversas responsabilidades.
+
